@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-navy font-body;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display;
+}
+
+.art-deco-border {
+  @apply relative;
+}
+
+.art-deco-border::before, 
+.art-deco-border::after {
+  content: '';
+  @apply absolute w-16 h-0.5 bg-gold;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.art-deco-border::before {
+  @apply -top-4;
+}
+
+.art-deco-border::after {
+  @apply -bottom-4;
+}
+
+.parallax {
+  @apply relative overflow-hidden;
+  perspective: 8px;
+  perspective-origin: 0%;
+}
+
+.parallax-layer {
+  @apply absolute inset-0;
+  transform-origin: 0 0;
+}
+
+.parallax-back {
+  transform: translateZ(-6px) scale(1.75);
+}
+
+.parallax-base {
+  transform: translateZ(0);
+}
+
+.gold-gradient {
+  background: linear-gradient(90deg, #D4AF37 0%, #FFD700 50%, #D4AF37 100%);
+  background-size: 200% auto;
+  animation: shimmer 2.5s linear infinite;
+}
+
+.art-deco-divider {
+  @apply relative flex items-center justify-center;
+}
+
+.art-deco-divider::before,
+.art-deco-divider::after {
+  content: '';
+  @apply bg-gold-light h-0.5 w-1/5;
+}
+
+.art-deco-divider::before {
+  @apply mr-6;
+}
+
+.art-deco-divider::after {
+  @apply ml-6;
+}
+
+.nav-link {
+  @apply relative text-navy hover:text-gold-dark transition-colors duration-300 font-display;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute left-0 -bottom-1 h-0.5 bg-gold w-0 transition-all duration-300;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  @apply w-full;
+}
+
+.btn {
+  @apply py-3 px-6 rounded-none border-2 font-display uppercase tracking-wider text-sm transition-all duration-300 inline-block;
+}
+
+.btn-primary {
+  @apply bg-navy text-cream border-gold hover:bg-navy-light;
+}
+
+.btn-secondary {
+  @apply bg-transparent text-navy border-navy hover:bg-navy hover:text-cream hover:border-gold;
+}
+
+.btn-gold {
+  @apply bg-gold text-navy border-navy hover:bg-gold-light;
+}
+
+.testimonial-card {
+  @apply relative p-8 bg-ivory border-l-4 border-gold;
+}
+
+.testimonial-card::before {
+  content: '"';
+  @apply absolute -top-4 -left-2 text-8xl text-gold-light opacity-20 font-display;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}

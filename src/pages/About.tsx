@@ -23,7 +23,7 @@ const About: React.FC = () => {
       <ParallaxHero
         title="About Philip Schafmayer"
         subtitle="Master Groomer & Founder of The Hamptons Groomer"
-        backgroundImage="https://images.pexels.com/photos/6568740/pexels-photo-6568740.jpeg"
+        backgroundImage="https://images.pexels.com/photos/6568740/pexels-photo-31838382.jpeg"
       />
       
       <PageSection>
@@ -47,7 +47,7 @@ const About: React.FC = () => {
           
           <div className="relative">
             <img 
-              src="https://images.pexels.com/photos/6568981/pexels-photo-6568981.jpeg" 
+              src="https://images.pexels.com/photos/6568981/pexels-photo-31838230.jpeg" 
               alt="Philip Schafmayer" 
               className="w-full h-auto shadow-lg border-8 border-ivory"
             />
@@ -169,7 +169,7 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.pexels.com/photos/6131445/pexels-photo-6131445.jpeg" 
+                src="https://img1.wsimg.com/isteam/ip/a9ddd385-019b-4c8c-9658-247262ddea6a/blob-dd3fb0c.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1240,cg:true" 
                 alt="Philip with a dog" 
                 className="w-full h-auto rounded-none shadow-lg"
               />

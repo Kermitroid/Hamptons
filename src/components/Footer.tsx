@@ -19,13 +19,13 @@ const Footer: React.FC = () => {
               Luxury dog grooming services in the Hamptons, providing exceptional care with a touch of elegance.
             </p>
             <div className="flex space-x-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-cream hover:text-gold transition-colors">
+              <a href="https://www.instagram.com/philipj.schafmayer?igsh=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer" className="text-cream hover:text-gold transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-cream hover:text-gold transition-colors">
+              <a href="https://www.facebook.com/share/1AcmC8Vyvt/" target="_blank" rel="noopener noreferrer" className="text-cream hover:text-gold transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="mailto:info@hamptonsgroomer.com" className="text-cream hover:text-gold transition-colors">
+              <a href="mailto:thehamptonsgroomer@gmail.com" className="text-cream hover:text-gold transition-colors">
                 <Mail size={20} />
               </a>
             </div>
@@ -59,15 +59,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0 text-gold" />
-                <span>123 Gatsby Lane, East Hampton, NY 11937</span>
+                <span>212 Inwood Avenue, Medford New York, 11763</span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 flex-shrink-0 text-gold" />
-                <span>(631) 555-1234</span>
+                <span>(516) 287-8889</span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0 text-gold" />
-                <span>info@hamptonsgroomer.com</span>
+                <span>thehamptonsgroomer@gmail.com</span>
               </li>
             </ul>
           </div>

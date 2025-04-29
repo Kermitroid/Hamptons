@@ -23,7 +23,7 @@ const About: React.FC = () => {
       <ParallaxHero
         title="About Philip Schafmayer"
         subtitle="Master Groomer & Founder of The Hamptons Groomer"
-        backgroundImage="https://images.pexels.com/photos/6568740/pexels-photo-31838382.jpeg"
+        backgroundImage=""
       />
       
       <PageSection>
@@ -47,7 +47,7 @@ const About: React.FC = () => {
           
           <div className="relative">
             <img 
-              src="https://images.pexels.com/photos/6568981/pexels-photo-31838230.jpeg" 
+              src="https://pub-7567c3b5b0184d44a64d834a198f2607.r2.dev/PhilipShafmayer_lg.jpg" 
               alt="Philip Schafmayer" 
               className="w-full h-auto shadow-lg border-8 border-ivory"
             />

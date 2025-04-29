@@ -37,7 +37,7 @@ const Home: React.FC = () => {
       <ParallaxHero
         title="Luxury Dog Grooming in the Hamptons"
         subtitle="Where Elegance Meets Expert Care"
-        backgroundImage="https://images.pexels.com/photos/2253275/pexels-photo-31841575.jpeg"
+        backgroundImage="https://pub-7567c3b5b0184d44a64d834a198f2607.r2.dev/Picsart_25-04-28_19-51-17-157.jpg"
         ctaText="Book an Appointment"
       />
       
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
           <div className="relative">
             <div className="aspect-w-4 aspect-h-5 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/1564506/pexels-photo-31841719.jpeg" 
+                src="https://pub-7567c3b5b0184d44a64d834a198f2607.r2.dev/Picsart_25-04-28_20-02-43-944.jpg" 
                 alt="Philip Schafmayer grooming a dog" 
                 className="w-full h-full object-cover"
               />

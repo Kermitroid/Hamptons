@@ -102,7 +102,7 @@ const Faq: React.FC = () => {
       <ParallaxHero
         title="Frequently Asked Questions"
         subtitle="Find answers to common questions about our services"
-        backgroundImage="https://images.pexels.com/photos/1329742/pexels-photo-1329742.jpeg"
+        backgroundImage="https://pub-7567c3b5b0184d44a64d834a198f2607.r2.dev/philipj.schafmayer-27-04-2025-0001.jpg"
       />
       
       <PageSection>

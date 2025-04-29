@@ -17,7 +17,7 @@ const Booking: React.FC = () => {
       <ParallaxHero
         title="Book Your Appointment"
         subtitle="Schedule a luxury grooming experience for your pet"
-        backgroundImage="https://images.pexels.com/photos/6131445/pexels-photo-6131445.jpeg"
+        backgroundImage="https://pub-7567c3b5b0184d44a64d834a198f2607.r2.dev/images%20(4).jpeg"
       />
       
       <PageSection>

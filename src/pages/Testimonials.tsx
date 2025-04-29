@@ -150,7 +150,7 @@ const Testimonials: React.FC = () => {
       <ParallaxHero
         title="Client Testimonials"
         subtitle="What Our Clients Have to Say"
-        backgroundImage="https://images.pexels.com/photos/1449358/pexels-photo-1449358.jpeg"
+        backgroundImage="https://pub-7567c3b5b0184d44a64d834a198f2607.r2.dev/nipigon16-28-04-2025-0001.jpg"
       />
       
       <PageSection>
